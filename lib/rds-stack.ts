@@ -36,7 +36,7 @@ export class RdsStack extends cdk.Stack {
     });
     
     // Import existing SNS Topic
-    //const topic = sns.Topic.fromTopicArn(this, "ShowcareAlertForwarder", "arn:aws:sns:us-east-1:486114551357:ShowcareAlertForwarder");
+    //const topic = sns.Topic.fromTopicArn(this, "AlertForwarder", "arn:aws:sns:us-east-1:123456:AlertForwarder");
 
     //VolumeReadIOPS
     const VolumeReadIOPSmetric = new cloudwatch.Metric({
